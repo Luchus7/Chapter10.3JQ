@@ -1,0 +1,28 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1, h2 {
+    text-align: center;
+}
+h1 {
+    background-image: url(images/banner.jpg);
+
+    color: white;
+}
+h2 {
+    color: lightgreen;
+}
+dd {
+    font-size: small;
+}
+.price {
+    font-style: italic;
+}
+footer {
+    font-size: xx-small;
+    text-align: right;
+}
+section {
+    padding-left: 20%;
+    padding-right: 20%;
+}
