@@ -24,9 +24,10 @@ h1, h2 {
 }
 h1 {
     width: 100%;
+    padding: 284px 0 25px 0;
     background-image: url(images/banner.jpg);
     background-repeat: no-repeat;
-    height: 400px;
+    height: 40px;
     color: #ffffff;
 }
 h2 {
