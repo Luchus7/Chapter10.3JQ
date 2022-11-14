@@ -1,16 +1,36 @@
+/*Name: Jose Quispe*/
+/*Date: 11/13/2022*/
+/*Assignment Name: Chapter10(Part 3): Menu*/
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url("font/OpenSans-Regular.woff"),
+         url("font/OpenSans-Regular.ttf");
+    }
+/*body*/
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Open Sans";
+    color: #333333;
+    background-image: url(images/background.png);
+}
+header {
+    width: 100%;
+    height: 50px;
+    background-image: url(images/leaf.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 h1, h2 {
     text-align: center;
 }
 h1 {
+    width: 100%;
     background-image: url(images/banner.jpg);
-
-    color: white;
+    background-repeat: no-repeat;
+    height: 400px;
+    color: #ffffff;
 }
 h2 {
-    color: lightgreen;
+    color: #66cc66;
 }
 dd {
     font-size: small;
@@ -18,11 +38,30 @@ dd {
 .price {
     font-style: italic;
 }
+/*footer*/
 footer {
     font-size: xx-small;
     text-align: right;
+    border-style: solid; 
+    border-color: #333333; 
+    border-width: 1px 0 0 0; 
 }
 section {
     padding-left: 20%;
     padding-right: 20%;
+}
+/*Above and Beyond*/
+#dessert h2 {
+    font-family: cursive;
+    color: 366b36;
+    font-size: 1.5em;
+}
+#dessert dt {
+    font-family: cursive;
+}
+#dessert .price {
+    font-family: cursive;
+}
+.ital {
+    font-style: italic;
 }
